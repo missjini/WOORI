@@ -1,0 +1,8 @@
+.join_table {
+    border-top: 2px soild #333;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.join_table tr ~ tr {
+    border-top: 1px solid #333;
+}

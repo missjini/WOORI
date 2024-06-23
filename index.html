@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <!--       
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <script src="js/script.js"></script>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>우리은행 시니어플러스</title>
+</head>
+
+<body>
+    <a href="#content" class="skip">본문바로가기</a>
+    <header>
+        <div class="top clear">
+            <h1>
+                <a href="index.html"><img src="images/original_logo.png" alt="우리은행 로고"></a>
+                <a href="#"><img src="images/logo.png" alt="시니어플러스 로고"></a>
+            </h1>
+            <div>
+                <div class="control">
+                    <h2>화면크기조정</h2>
+                    <ul>
+                        <li><button class="xi-plus"><span class="hide">크기확대</span></button></li>
+                        <li><button class="xi-minus"><span class="hide">크기축소</span></button></li>
+                        <li><button>원본보기</button></li>
+                    </ul>
+                </div>
+                <h2 class="hide">SNS</h2>
+                <ul class="sns">
+                    <li><a href="#"><img src="images/sns_3.png" alt="페이스북 로고"></a></li>
+                    <li><a href="#"><img src="images/sns_1.png" alt="네이버 카페 로고"></a></li>
+                    <li><a href="#"><img src="images/sns_2.png" alt="유튜브 로고"></a></li>
+                    <li><a href="#"><img src="images/sns_4.png" alt="인스타그램 로고"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- header .top end -->
+
+        <div class="btm clear">
+            <div>
+                <nav class="lnb">
+                    <li><a href="#">금융서비스</a></li>
+                    <li><a href="#">관심정보</a></li>
+                    <li><a href="#">교육/세미나</a></li>
+                    <li><a href="#">여행/쇼핑</a></li>
+                    <li><a href="#">일자리정보</a></li>
+                </nav>
+                <div class="spot">
+                    <a href="#">로그인</a>
+                    <a href="join.html">회원가입</a>
+                    <button class="xi-search"><span class="hide">검색</span></button>
+                </div>
+            </div>
+        </div>
+        <!-- header btm end -->
+    </header>
+    <!-- header end -->
+
+    <main>
+        <section class="clear">
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="images/bn1.jpg" alt="이벤트 이미지">
+                </div>
+                <div class="slide fade">
+                    <img src="images/bn2.jpg" alt="이벤트 이미지">
+                </div>
+                <div class="slide fade">
+                    <img src="images/bn3.jpg" alt="이벤트 이미지">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+
+        <section class="block service"> <!-- 금융서비스 -->
+            <div>
+                <div class="tit">
+                    <h2>금융서비스</h2>
+                    <p>은퇴준비가 걱정되시나요? 지금 바로 은퇴설계시스템을 통해 은퇴 준비 상태를 점검하세요!</p>
+                </div>
+                <div class="banner">
+                    <div class="left">
+                        <img src="images/bg_left.jpg" alt="고객맞춤 이미지">
+                    </div>
+                    <div class="right">
+                        <img src="images/bg_right.jpg" alt="시니어플러스 이미지">
+                    </div>
+                </div>
+            </div>
+            <div class="service1">
+                <article class="event">
+                    <h3>이벤트</h3>
+                    <img src="images/img_banner.jpg" alt="이벤트 배너">
+                    <a href="#" class="btn_more">자세히 보기 &gt;</a>
+                </article>
+                <article class="recom">
+                    <h3>시니어 추천 금융상품</h3>
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper slide1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <!-- 카드이미지 -->
+                                <div class="card_info">
+                                    <div class="card">
+                                        <img src="images/img_card.png" alt="카드 이미지">
+                                        <div class="btn_func">
+                                            <button>관심추가</button>
+                                            <button>신청하기</button>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>우리국민연금증카드</h4>
+                                        <p>
+                                            국민연금수급자임을 증명하는 신분증 기능에<br />버스요금 매월 5천원 지원과 차별화
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide"> <!-- 카드이미지2 -->
+                                <div class="card_info">
+                                    <div class="card">
+                                        <img src="images/img_card1.png" alt="카드 이미지1">
+                                        <div class="btn_func">
+                                            <button>관심추가</button>
+                                            <button>신청하기</button>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>카드의 정석 EVERY POINT</h4>
+                                        <p>
+                                            모두를 위한 간편한 혜택<br />EVERYTIME EVERYWHERE EVERYWOORI
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control_btn">
+                            <button class="prev_btn"><span class="hide">이전</span></button>
+                            <button class="next_btn"><span class="hide">다음</span></button>
+                        </div>
+                    </div>
+                    <a href="#" class="btn_more">자세히 보기 &gt;</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="fav_info block"> <!-- 관심정보 -->
+            <div class="clear">
+                <div class="tit">
+                    <h2>관심정보</h2>
+                </div>
+                <div class="fav_left">
+                    <a href="#">시니어플러스 <span>PICK!</span></a>
+                    <div class="thoumb">
+                        <a href="#">
+                            <img src="images/img_thoumb1.jpg" alt="관심정보 이미지">
+                            <p>여가 정보</p>
+                            <span>여행하기 딱 좋은 계절, 가을</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="fav_right">
+                    <ul class="tab_type1">
+                        <li><a href="#"><i class="fa-regular fa-heart"></i>건강</a></li>
+                        <li><a href="#"><i class="fa-solid fa-coins"></i>제테크</a></li>
+                        <li><a href="#"><i class="fa-regular fa-paper-plane"></i>생활</a></li>
+                        <li><a href="#"><i class="fa-solid fa-book"></i>여가</a></li>
+                        <li><a href="#"><i class="fa-solid fa-person"></i>사람</a></li>
+                    </ul>
+                    <ul class="info_list">
+                        <li>
+                            <a href="#">
+                                <strong>생활정보</strong>재취업 이력서 쓸 때 절대 쓰지말아야 할 5가지_by 라이나전성기재단
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>생활정보</strong>제철에 먹는 음식이 좋다.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>건강정보</strong>암을 이기는 5가지 습관
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>제테크정보</strong>퇴직 후 챙겨야 할 실업급여와 실손보험
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong>제테크정보</strong>국민연금을 담보로 대출 받는다!
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="education block"> <!-- 교육/세미나 -->
+            <div class="clear">
+                <div class="tit">
+                    <h2>교육/세미나</h2>
+                    <p>직접 참여할 수 있는 다양한 교육 프로그램과 고품격 동영상 강의를 경험해 보세요!</p>
+                </div>
+                <div class="edu_warp">
+                    <div class="edu_left">
+                        <h3 class="h3">시니어플러스 센터 <span>무료대관</span> 예약</h3>
+                        <a href="#">
+                            <strong>시니어플러스에서 제공하는 무료대관 서비스</strong>
+                            <p>시니어플러스센터 명동점과 신촌점에서 시니어분들을 위한 강의장, 모임공간을 무료로 대관해 드립니다.</p>
+                            <span>예약하기</span>
+                        </a>
+                    </div>
+                    <div class="edu_right">
+                        <div>
+                            <h3 class="h3"><span>오프라인</span> 세미나 및 특강</h3>
+                            <div class="info_wrap">
+                                <div class="info_img">
+                                    <img src="images/thoumb2.jpg" alt="부동산투자 최신 트랜드 2024 부동산 시장 전망">
+                                    <div class="btn_func">
+                                        <button>관심추가</button>
+                                        <button>신청하기</button>
+                                    </div>
+                                </div>
+                                <div class="info_txt">
+                                    <a href="#">우리자산관리학교 &lt;부동산투자&gt;</a>
+                                    <ul>
+                                        <li><strong>기간</strong>2024.04.09 ~ 04.09</li>
+                                        <li><strong>시간</strong>14:00 ~ 16:00</li>
+                                        <li><strong>인원</strong>20명</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="#" class="bt_more">자세히 보기 &gt;</a>
+                        </div>
+                        <div>
+                            <h3 class="h3"><span>온라인</span> 세미나 및 특강</h3>
+                            <div class="info_wrap">
+                                <div class="info_img">
+                                    <img src="images/thoumb2.png" alt="행복한 삶에는 와인이 필요하다">
+                                    <div class="btn_func">
+                                        <button>관심추가</button>
+                                        <button>신청하기</button>
+                                    </div>
+                                </div>
+                                <div class="info_txt">
+                                    <a href="#">와인보다 맛있는 와인 이야기</a>
+                                    <p>국가대표 1호 소믈리에와 함께 하는 '대화의 술' 와인 이야기 - 강사 : 정강사</p>
+                                </div>
+                            </div>
+                            <a href="#" class="bt_more">자세히 보기 &gt;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trip block white"> <!-- 여행/쇼핑 -->
+            <div class="clear">
+                <div class="tit">
+                    <h2>여행/쇼핑</h2>
+                    <p>시니어를 위해 준비한 즐거운 여행 프로그램과 시니어 특화 쇼핑서비스를 만나보세요!</p>
+                </div>
+                <ul class="trip_list">
+                    <li class="trip_color1">
+                        <img src="images/travel_3.jpg" alt="위메프 이미지" class="trip_thoum">
+                        <img src="images/icon_we.png" alt="위메프 로고" class="trip_mark">
+                        <strong>쇼핑 특가대표, <span>위메프</span></strong>
+                        <p>시니어를 위한 텔레마트 서비스와<br />다양한 할인과 적립혜택을 누리세요!</p>
+                        <a href="#">바로가기</a>
+                    </li>
+                    <li class="trip_color2">
+                        <img src="images/travel_2.jpg" alt="롯데관광 이미지" class="trip_thoum">
+                        <img src="images/icon_lotte.png" alt="롯데관광 로고" class="trip_mark">
+                        <strong>믿고가는 여행, <span>롯데관광</span></strong>
+                        <p>국내외 시니어 특화여행과<br />다양한 할인혜택을 놓치지마세요!</p>
+                        <a href="#">바로가기</a>
+                    </li>
+                    <li class="trip_color3">
+                        <img src="images/travel_1.jpg" alt="국내여행 이미지" class="trip_thoum">
+                        <strong><span>국내여행 </span>프로그램</strong>
+                        <p>시니어 로컬여행가이드와<br />함께합니다!</p>
+                        <a href="#">바로가기</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="job block"> <!-- 일자리정보 -->
+            <div class="clear">
+                <div class="tit">
+                    <h2>일자리정보</h2>
+                </div>
+                <div class="job_left">
+                    <h3 class="h3"><span>시니어</span> 채용정보</h3>
+                    <ul class="job_info">
+                        <li>
+                            <a href="#">
+                                <img src="images/logo_job1.jpg" alt="굿커리어 회사 로고 이미지">
+                                <strong>굿커리어</strong>
+                                <p>외국계 자동차 Automated 채용 공고</p>
+                                <span>D-30</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/logo_job2.gif" alt="셀트리온 회사 로고 이미지">
+                                <strong>(주)셀트리온스킨큐어</strong>
+                                <p>김태희 화장품 셀트리온스킨큐어 채용 공고</p>
+                                <span>D-30</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/logo_job1.jpg" alt="굿커리어 회사 로고 이미지">
+                                <strong>굿커리어</strong>
+                                <p>석유화학대기업 리스크관리 채용 공고</p>
+                                <span>D-30</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="bt_more">자세히 보기 &gt;</a>
+                </div>
+                <div class="job_right">
+                    <a href="#"><img src="images/ad_job.png" alt="노인일자리 바로가기 이미지"></a>
+                </div>
+                <div class="customer"> <!-- 고객문의 및 해피콜 -->
+                    <h2 class="h3"><span>고객문의</span> 및 <em>해피콜</em></h2>
+                    <p class="cus_txt">
+                        (이 페이지에서 제공하는 내용에 대해 의견/문의를 남겨주시면 신속히 답변드리겠습니다.
+                        <strong>해피콜 가능 시간 평일 10:00 ~ 17:00)</strong>
+                    </p>
+                    <div class="form">
+                        <div>
+                            <label for="txt1_1">연락처</label>
+                            <select id="txt1_1" style="width:104px;">
+                                <option>010</option>
+                                <option>02</option>
+                                <option>031</option>
+                                <option>051</option>
+                                <option>053</option>
+                                <option>043</option>
+                                <option>063</option>
+                                <option>061</option>
+                                <option>064</option>
+                            </select>
+                            <span>-</span>
+                            <input type="tel" titie="연락처 핸드폰 중간자리" style="width:108px;">
+                            <span>-</span>
+                            <input type="tel" titie="연락처 핸드폰 마지막자리" style="width:108px;">
+                        </div>
+                        <div>
+                            <label for="txt1_2">문의내용</label>
+                            <input type="text" id="txt1_2" style="width:450px;"
+                                placeholder="간단한 의견 및 문의내용을 기입해주세요. (500자 이내)">
+                            <button>문의하기<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="chek_box">
+                        <input type="checkbox" id="chk1_1">
+                        <label for="chk1_1">개인정보 수집 및 이용에 동의합니다.</label>
+                        <a href="#">약관보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bn_warp"> <!-- 이미지 배너 -->
+            <div class="bn_img">
+                <a href="#"><img src="images/bn1_img.png" alt="배너1"></a>
+                <a href="#"><img src="images/bn2_img.jpg" alt="배너2"></a>
+                <a href="#"><img src="images/bn3_img.jpg" alt="배너3"></a>
+                <a href="#"><img src="images/bn4_img.jpg" alt="배너4"></a>
+                <a href="#"><img src="images/bn5_img.jpg" alt="배너5"></a>
+                <a href="#"><img src="images/bn6_img.jpg" alt="배너6"></a>
+            </div>
+        </div>
+    </main>
+    <!-- main end -->
+
+    <footer class="block">
+        <div>
+            <div class="foo_top">
+                <div>
+                    <img src="images/original_logo.png" alt="우리은행 로고">
+                    <h2 class="hide">우리은행 시니어플러스 소개 및 약관</h2>
+                    <ul>
+                        <li><a href="#">은행소개</a></li>
+                        <li><a href="#">영업점안내</a></li>
+                        <li><a href="#">전자민원접수</a></li>
+                        <li><a href="#">상품공시실</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <select>
+                        <option>패밀리 사이트 바로가기</option>
+                    </select>
+                </div>
+            </div>
+            <div class="foo_btm">
+                <address>Copyright WOORI BANK. ALL Rights Reserved.</address>
+                <h2 class="hide">SNS 바로가기</h2>
+                <ul>
+                    <li><a href="#"><span class="hide">페이스북</span></a></li>
+                    <li><a href="#"><span class="hide">네이버카페</span></a></li>
+                    <li><a href="#"><span class="hide">유튜브</span></a></li>
+                    <li><a href="#"><span class="hide">인스타그램</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    
+    <script> // 스크립트
+        var swiper = new Swiper(".mySwiper", { // 슬라이드 버튼 제어
+            navigation: {
+                nextEl: ".next_btn",
+                prevEl: ".prev_btn",
+            },
+            loop: true
+        });
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            const slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("fade"); // 모든 슬라이드에서 fade 클래스 제거
+            }
+            slides[slideIndex - 1].classList.add("fade"); // 현재 슬라이드에만 fade 클래스 추가
+        }
+
+        // 메인 슬라이드 이미지 넘어가는 시간
+        setInterval(function () {
+            plusSlides(1);
+        }, 5000); // Change image every 5 seconds
+
+        $(document).ready(function () {
+
+        });
+    </script>
+
+</html>
